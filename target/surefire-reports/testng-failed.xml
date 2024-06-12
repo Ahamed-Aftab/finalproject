@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="mavenpractice.Project_Final2024.Listener"/>
+  </listeners>
+  <test thread-count="2" name="test(failed)" verbose="0">
+    <classes>
+      <class name="mavenpractice.Project_Final2024.LoginTest">
+        <methods>
+          <include name="navigation"/>
+        </methods>
+      </class> <!-- mavenpractice.Project_Final2024.LoginTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
